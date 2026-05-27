@@ -1,5 +1,5 @@
 const helloWorld = function() {
-  return ''
+  return 'Hello, World!'
 };
 
-module.exports = helloWorld;
+module.exports = helloWorld;  //export the function for the require() in spec.js
